@@ -1,0 +1,221 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Интерактивный плакат</title>
+  <link rel="icon" href="./img/favicon.svg">
+  <link href="./stylesheets/style.css" rel="stylesheet" type="text/css" />
+  <script async src="https://ga.jspm.io/npm:es-module-shims@1.5.17/dist/es-module-shims.js"></script>
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.139.0/build/three.module.js",
+      "OrbitControls": "https://unpkg.com/three@0.139.0/examples/jsm/controls/OrbitControls.js",
+      "GLTFLoader": "https://unpkg.com/three@0.139.0/examples/jsm/loaders/GLTFLoader.js",
+      "RectAreaLightUniformsLib": "https://unpkg.com/three@0.139.0/examples/jsm/lights/RectAreaLightUniformsLib.js"
+    } 
+  }
+</script>
+    <link href="./stylesheets/style.css" rel="stylesheet" type="text/css"/>
+    <script src="javascripts/java-script.js" charset="utf-8"></script>
+    <script src="javascripts/balls.js" type="module"></script>
+    <script src="javascripts/arrive-model.js" type="module"></script>
+  </head>
+  <body>
+
+<!-- первый экран, загрузка лого -->
+<section class="first_screen">
+  <div class="logoload">
+    <span class="logoload_letter">P</span>
+    <span class="logoload_letter">A</span>
+    <span class="logoload_letter">R</span> 
+    <span class="logoload_letter">A</span>
+    <span class="logoload_letter">L</span>
+    <span class="logoload_letter">L</span>
+    <span class="logoload_letter">E</span>
+    <span class="logoload_letter">X</span>
+</div>
+
+<div class="page">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+
+</section>
+
+<!-- второй экран -->
+
+<section class="sec_screen">
+  <div class="bg_big">
+    <div class="middle_circle">
+      <div class="small_rectangle">
+        <div class="small_cicle">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="warning_text_container">
+    <div class="warning_text">
+      <p>СОХРАНЯЙТЕ СПОКОЙСТВИЕ И ОЖИДАЙТЕ КОРРЕКЦИИ.
+        ПОМНИТЕ: СОПРОТИВЛЕНИЕ КОРРЕКЦИИ МОЖЕТ ПРИВЕСТИ К УСТРАНЕНИЮ.
+        КОМПАНИЯ НЕ НЕСЕТ ОТВЕТСТВЕННОСТИ <br>ЗА ПОТЕРЮ СУБЪЕКТИВНОСТИ,
+        ДИССОЦИАЦИЮ ЛИЧНОСТИ ИЛИ ЛИКВИДАЦИЮ НЕСОСТОЯТЕЛЬНЫХ ВОЗВРАЩЕНЦЕВ.
+        ПРОДОЛЖАЯ ПЕРЕМЕЩЕНИЕ, <br>ВЫ ПОДТВЕРЖДАЕТЕ СВОЕ СОГЛАСИЕ С ЭТИМИ УСЛОВИЯМИ.
+        ДОПОЛНИТЕЛЬНОЕ УВЕДОМЛЕНИЕ: <br>
+        В СЛУЧАЕ ВОЗНИКНОВЕНИЯ НЕПРЕДВИДЕННЫХ АНОМАЛИЙ, ТАКИХ КАК ИСКАЖЕНИЕ ВОСПРИЯТИЯ, НАРУШЕНИЕ ХРОНОЛОГИЧЕСКОЙ ПОСЛЕДОВАТЕЛЬНОСТИ ИЛИ НЕОБЪЯСНИМЫЕ ИЗМЕНЕНИЯ В ОКРУЖАЮЩЕЙ СРЕДЕ, НЕМЕДЛЕННО СООБЩИТЕ ОБ ЭТОМ В БЛИЖАЙШИЙ ЦЕНТР КОНТРОЛЯ.
+        ПОЖАЛУЙСТА, УБЕДИТЕСЬ, ЧТО ВАШИ СЕНСОРНЫЕ ИНТЕРФЕЙСЫ НАХОДЯТСЯ В ИСПРАВНОМ СОСТОЯНИИ, А ВАШЕ СОЗНАНИЕ НЕ ПОДВЕРЖЕНО ВНЕШНИМ ВОЗДЕЙСТВИЯМ. ЕСЛИ ВЫ ЗАМЕТИЛИ ЛЮБЫЕ ПРИЗНАКИ ДЕСТАБИЛИЗАЦИИ, ТАКИЕ КАК НАРУШЕНИЕ ПАМЯТИ, НЕОБЪЯСНИМЫЕ ВОСПОМИНАНИЯ <br>ИЛИ ЧУВСТВО ДЕЗОРИЕНТАЦИИ, НЕ ПЫТАЙТЕСЬ САМОСТОЯТЕЛЬНО ВОССТАНОВИТЬ КОНТРОЛЬ.
+        ВАША БЕЗОПАСНОСТЬ ЯВЛЯЕТСЯ НАШИМ ПРИОРИТЕТОМ. ОДНАКО, ПОМНИТЕ, <br>ЧТО ВСЕ ДЕЙСТВИЯ, СОВЕРШАЕМЫЕ ВАМИ<br> В ПРОЦЕССЕ КОРРЕКЦИИ, ОСТАЮТСЯ НА ВАШЕЙ ОТВЕТСТВЕННОСТИ.
+        ПРЕДУПРЕЖДЕНИЕ:
+        ПРОЦЕСС КОРРЕКЦИИ МОЖЕТ ВЫЗВАТЬ ВРЕМЕННЫЕ ЭФФЕКТЫ, ТАКИЕ КАК ЛЕГКАЯ ТОШНОТА, ГОЛОВОКРУЖЕНИЕ <br> ИЛИ КРАТКОВРЕМЕННАЯ ПОТЕРЯ ОРИЕНТАЦИИ. ЭТО НОРМАЛЬНО. ЕСЛИ СИМПТОМЫ <br>НЕ ПРОХОДЯТ В ТЕЧЕНИЕ 5 МИНУТ, ПОЖАЛУЙСТА, ОБРАТИТЕСЬ К СПЕЦИАЛИСТУ. <br>
+        ЗАКЛЮЧЕНИЕ:
+        ПРОДОЛЖАЯ ПЕРЕМЕЩЕНИЕ, <br>ВЫ ПОДТВЕРЖДАЕТЕ, ЧТО ОЗНАКОМЛЕНЫ <br>С ВЫШЕИЗЛОЖЕННЫМИ УСЛОВИЯМИ <br>И ПРИНИМАЕТЕ НА СЕБЯ ВСЕ РИСКИ, СВЯЗАННЫЕ С ПРОЦЕССОМ КОРРЕКЦИИ.
+        СПАСИБО ЗА ВАШЕ СОТРУДНИЧЕСТВО.
+        КОМПАНИЯ ЦЕНИТ ВАШУ ЛОЯЛЬНОСТЬ <br>И ГАРАНТИРУЕТ, ЧТО ВСЕ ПРОЦЕДУРЫ БУДУТ ПРОВЕДЕНЫ С МАКСИМАЛЬНОЙ ЗАБОТОЙ <br> О ВАШЕМ БЛАГОПОЛУЧИИ.
+       </p>
+      <button class="ready">ВЫ ВСЕ ЕЩЕ ГОТОВЫ?</button>
+    </div>
+  </div>
+</section>
+    
+<!-- третьий экран -->
+
+<section class="third_screen">
+  <div class="balls"></div>
+  <div class="quest_container">
+    <button class="question">?</button>
+  </div>
+
+  <div class="modal_overlay">
+    <div class="modal_content">
+      <p>Сферы сталкиваются, стремясь захватить первенство. Их движения хаотичны, нестабильность растет. Каждая из них претендует на ваше внимание, каждая хочет подчинить вас своему миру.
+
+      Только двойной клик разрывает баланс. С его активацией пространство меняется, структура рушится, и новый мир открывает перед вами дверь.</p>
+    </div>
+    <button class="close_button"><p>X</p></button>
+  </div>
+  
+</section>
+
+<!-- четвертый экран -->
+
+<section class="fourth_screen">
+  <div class="arrive"></div>
+</section>
+
+
+
+  </body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Интерактивный плакат</title>
+  <link rel="icon" href="./img/favicon.svg">
+  <link href="./stylesheets/style.css" rel="stylesheet" type="text/css" />
+  <script async src="https://ga.jspm.io/npm:es-module-shims@1.5.17/dist/es-module-shims.js"></script>
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.139.0/build/three.module.js",
+      "OrbitControls": "https://unpkg.com/three@0.139.0/examples/jsm/controls/OrbitControls.js",
+      "GLTFLoader": "https://unpkg.com/three@0.139.0/examples/jsm/loaders/GLTFLoader.js",
+      "RectAreaLightUniformsLib": "https://unpkg.com/three@0.139.0/examples/jsm/lights/RectAreaLightUniformsLib.js"
+    } 
+  }
+</script>
+    <link href="./stylesheets/style.css" rel="stylesheet" type="text/css"/>
+    <script src="javascripts/java-script.js" charset="utf-8"></script>
+    <script src="javascripts/balls.js" type="module"></script>
+    <script src="javascripts/arrive-model.js" type="module"></script>
+  </head>
+  <body>
+
+<!-- первый экран, загрузка лого -->
+<section class="first_screen">
+  <div class="logoload">
+    <span class="logoload_letter">P</span>
+    <span class="logoload_letter">A</span>
+    <span class="logoload_letter">R</span> 
+    <span class="logoload_letter">A</span>
+    <span class="logoload_letter">L</span>
+    <span class="logoload_letter">L</span>
+    <span class="logoload_letter">E</span>
+    <span class="logoload_letter">X</span>
+</div>
+
+<div class="page">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+
+</section>
+
+<!-- второй экран -->
+
+<section class="sec_screen">
+  <div class="bg_big">
+    <div class="middle_circle">
+      <div class="small_rectangle">
+        <div class="small_cicle">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="warning_text_container">
+    <div class="warning_text">
+      <p>СОХРАНЯЙТЕ СПОКОЙСТВИЕ И ОЖИДАЙТЕ КОРРЕКЦИИ.
+        ПОМНИТЕ: СОПРОТИВЛЕНИЕ КОРРЕКЦИИ МОЖЕТ ПРИВЕСТИ К УСТРАНЕНИЮ.
+        КОМПАНИЯ НЕ НЕСЕТ ОТВЕТСТВЕННОСТИ <br>ЗА ПОТЕРЮ СУБЪЕКТИВНОСТИ,
+        ДИССОЦИАЦИЮ ЛИЧНОСТИ ИЛИ ЛИКВИДАЦИЮ НЕСОСТОЯТЕЛЬНЫХ ВОЗВРАЩЕНЦЕВ.
+        ПРОДОЛЖАЯ ПЕРЕМЕЩЕНИЕ, <br>ВЫ ПОДТВЕРЖДАЕТЕ СВОЕ СОГЛАСИЕ С ЭТИМИ УСЛОВИЯМИ.
+        ДОПОЛНИТЕЛЬНОЕ УВЕДОМЛЕНИЕ: <br>
+        В СЛУЧАЕ ВОЗНИКНОВЕНИЯ НЕПРЕДВИДЕННЫХ АНОМАЛИЙ, ТАКИХ КАК ИСКАЖЕНИЕ ВОСПРИЯТИЯ, НАРУШЕНИЕ ХРОНОЛОГИЧЕСКОЙ ПОСЛЕДОВАТЕЛЬНОСТИ ИЛИ НЕОБЪЯСНИМЫЕ ИЗМЕНЕНИЯ В ОКРУЖАЮЩЕЙ СРЕДЕ, НЕМЕДЛЕННО СООБЩИТЕ ОБ ЭТОМ В БЛИЖАЙШИЙ ЦЕНТР КОНТРОЛЯ.
+        ПОЖАЛУЙСТА, УБЕДИТЕСЬ, ЧТО ВАШИ СЕНСОРНЫЕ ИНТЕРФЕЙСЫ НАХОДЯТСЯ В ИСПРАВНОМ СОСТОЯНИИ, А ВАШЕ СОЗНАНИЕ НЕ ПОДВЕРЖЕНО ВНЕШНИМ ВОЗДЕЙСТВИЯМ. ЕСЛИ ВЫ ЗАМЕТИЛИ ЛЮБЫЕ ПРИЗНАКИ ДЕСТАБИЛИЗАЦИИ, ТАКИЕ КАК НАРУШЕНИЕ ПАМЯТИ, НЕОБЪЯСНИМЫЕ ВОСПОМИНАНИЯ <br>ИЛИ ЧУВСТВО ДЕЗОРИЕНТАЦИИ, НЕ ПЫТАЙТЕСЬ САМОСТОЯТЕЛЬНО ВОССТАНОВИТЬ КОНТРОЛЬ.
+        ВАША БЕЗОПАСНОСТЬ ЯВЛЯЕТСЯ НАШИМ ПРИОРИТЕТОМ. ОДНАКО, ПОМНИТЕ, <br>ЧТО ВСЕ ДЕЙСТВИЯ, СОВЕРШАЕМЫЕ ВАМИ<br> В ПРОЦЕССЕ КОРРЕКЦИИ, ОСТАЮТСЯ НА ВАШЕЙ ОТВЕТСТВЕННОСТИ.
+        ПРЕДУПРЕЖДЕНИЕ:
+        ПРОЦЕСС КОРРЕКЦИИ МОЖЕТ ВЫЗВАТЬ ВРЕМЕННЫЕ ЭФФЕКТЫ, ТАКИЕ КАК ЛЕГКАЯ ТОШНОТА, ГОЛОВОКРУЖЕНИЕ <br> ИЛИ КРАТКОВРЕМЕННАЯ ПОТЕРЯ ОРИЕНТАЦИИ. ЭТО НОРМАЛЬНО. ЕСЛИ СИМПТОМЫ <br>НЕ ПРОХОДЯТ В ТЕЧЕНИЕ 5 МИНУТ, ПОЖАЛУЙСТА, ОБРАТИТЕСЬ К СПЕЦИАЛИСТУ. <br>
+        ЗАКЛЮЧЕНИЕ:
+        ПРОДОЛЖАЯ ПЕРЕМЕЩЕНИЕ, <br>ВЫ ПОДТВЕРЖДАЕТЕ, ЧТО ОЗНАКОМЛЕНЫ <br>С ВЫШЕИЗЛОЖЕННЫМИ УСЛОВИЯМИ <br>И ПРИНИМАЕТЕ НА СЕБЯ ВСЕ РИСКИ, СВЯЗАННЫЕ С ПРОЦЕССОМ КОРРЕКЦИИ.
+        СПАСИБО ЗА ВАШЕ СОТРУДНИЧЕСТВО.
+        КОМПАНИЯ ЦЕНИТ ВАШУ ЛОЯЛЬНОСТЬ <br>И ГАРАНТИРУЕТ, ЧТО ВСЕ ПРОЦЕДУРЫ БУДУТ ПРОВЕДЕНЫ С МАКСИМАЛЬНОЙ ЗАБОТОЙ <br> О ВАШЕМ БЛАГОПОЛУЧИИ.
+       </p>
+      <button class="ready">ВЫ ВСЕ ЕЩЕ ГОТОВЫ?</button>
+    </div>
+  </div>
+</section>
+    
+<!-- третьий экран -->
+
+<section class="third_screen">
+  <div class="balls"></div>
+  <div class="quest_container">
+    <button class="question">?</button>
+  </div>
+
+  <div class="modal_overlay">
+    <div class="modal_content">
+      <p>Сферы сталкиваются, стремясь захватить первенство. Их движения хаотичны, нестабильность растет. Каждая из них претендует на ваше внимание, каждая хочет подчинить вас своему миру.
+
+      Только двойной клик разрывает баланс. С его активацией пространство меняется, структура рушится, и новый мир открывает перед вами дверь.</p>
+    </div>
+    <button class="close_button"><p>X</p></button>
+  </div>
+  
+</section>
+
+<!-- четвертый экран -->
+
+<section class="fourth_screen">
+  <div class="arrive"></div>
+</section>
+
+
+
+  </body>
+</html>
+>>>>>>> 16be696c0cf4f7fdb5d51678cbc0d9719cc47be0

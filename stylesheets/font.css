@@ -1,0 +1,28 @@
+<<<<<<< HEAD
+@font-face {
+    font-family: "PTMono-Regular";
+    src: url(./PTMono-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "PTMono-Regular";
+    src: url(./PTMono-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+=======
+@font-face {
+    font-family: "PTMono-Regular";
+    src: url(./PTMono-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "PTMono-Regular";
+    src: url(./PTMono-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+>>>>>>> 16be696c0cf4f7fdb5d51678cbc0d9719cc47be0
+}
